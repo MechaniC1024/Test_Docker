@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PrestaShop_Chrome" verbose="1">
+	
+	<parameter name="browser" value="Firefox" />
+ 
+	<test name="Check search.">
+		<classes>
+			<class name="com.Docker.TestDocker.NewTest" />
+		</classes>
+	</test>
+</suite>

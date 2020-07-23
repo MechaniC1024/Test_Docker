@@ -1,0 +1,14 @@
+<environment>
+	<parameter>
+		<key>Site</key>
+		<value>http://prestashop-automation.qatestlab.com.ua/ru/</value>
+	</parameter>
+	<parameter>
+		<key>Firefox</key>
+		<value>71.0</value>
+	</parameter>
+	<parameter>
+		<key>Google Chrome</key>
+		<value>79.0.3945.88</value>
+	</parameter>
+</environment>

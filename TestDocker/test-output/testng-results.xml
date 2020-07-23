@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PrestaShop_Chrome" duration-ms="28948" started-at="2020-07-23T14:23:07 MSK" finished-at="2020-07-23T14:23:36 MSK">
+    <groups>
+    </groups>
+    <test name="Check search." duration-ms="28948" started-at="2020-07-23T14:23:07 MSK" finished-at="2020-07-23T14:23:36 MSK">
+      <class name="com.Docker.TestDocker.NewTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.Docker.TestDocker.NewTest@1a6f5124]" name="beforeTest" is-config="true" duration-ms="11188" started-at="2020-07-23T14:23:07 MSK" description="Инициализация браузера." finished-at="2020-07-23T14:23:18 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.Docker.TestDocker.NewTest@1a6f5124]" name="test1" duration-ms="4878" started-at="2020-07-23T14:23:18 MSK" finished-at="2020-07-23T14:23:23 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.Docker.TestDocker.NewTest@1a6f5124]" name="test2" duration-ms="601" started-at="2020-07-23T14:23:23 MSK" depends-on-methods="com.Docker.TestDocker.NewTest.test1" finished-at="2020-07-23T14:23:24 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.Docker.TestDocker.NewTest@1a6f5124]" name="test3" duration-ms="64" started-at="2020-07-23T14:23:24 MSK" depends-on-methods="com.Docker.TestDocker.NewTest.test2" finished-at="2020-07-23T14:23:24 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.Docker.TestDocker.NewTest@1a6f5124]" name="test4" duration-ms="3319" started-at="2020-07-23T14:23:24 MSK" depends-on-methods="com.Docker.TestDocker.NewTest.test3" finished-at="2020-07-23T14:23:27 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Docker.TestDocker.NewTest@1a6f5124]" name="afterTest" is-config="true" duration-ms="8315" started-at="2020-07-23T14:23:27 MSK" finished-at="2020-07-23T14:23:36 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.Docker.TestDocker.NewTest -->
+    </test> <!-- Check search. -->
+  </suite> <!-- PrestaShop_Chrome -->
+</testng-results>
