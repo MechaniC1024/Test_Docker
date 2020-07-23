@@ -25,6 +25,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 
+
+
 @Epic("Тестовый набор 1.")
 @Feature("Список ответов по запросу.")
 public class NewTest {
